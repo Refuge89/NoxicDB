@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ------------------------------------------------------------------
  General
 ------------------------------------------------------------------
@@ -86,9 +85,3 @@ character_structure.sql
 http://arcemu.org/wiki/Database_setup
 http://arcpro.sexyi.am/en/Database_setup
 
-=======
-ArcPro database
-===============
-
-ArcPro 3.3.5a (ALPHA) database
->>>>>>> 68a0c74ea2048dd9361a5b616edf540fd486bbe1
