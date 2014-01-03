@@ -14,8 +14,8 @@ database that contains all the basic information about NPCs,
 gameobjects, items, spells, quests and much more.
 
 Visit the website for more information:
-http://dev.landofelves.net -- Keeping while it still exists
-http://arcpro.sexyi.am/
+
+http://dev.landofelves.net
 
 
 ------------------------------------------------------------------
@@ -36,10 +36,10 @@ If you don't need localizations you don't need to download.
 
 
 ------------------------------------------------------------------
- Questions ? Bugs and Fixes `?
+ Questions ? Bugs and Fixes?
 ------------------------------------------------------------------
 
-Please ask questions or report bugs or fixes in ArcEmu or ArcPro forum.
+Please ask questions or report bugs or fixes at ArcEmu or ArcPro forum.
 Thank you very much.
 
 
@@ -72,6 +72,7 @@ Note that this script needs to be run with bash.
 -----------------------------------------------------------------
 
 You can find the latest structures in "ArcEmuRootFolder\sql":
+
 You can find the latest structures in "ArcProRootFolder\sql":
 
 logon_structure.sql
@@ -83,5 +84,4 @@ character_structure.sql
 -----------------------------------------------------------------
 
 http://arcemu.org/wiki/Database_setup
-http://arcpro.sexyi.am/en/Database_setup
 
