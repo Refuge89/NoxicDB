@@ -30,7 +30,7 @@ Make a backup of your database !
  Localizations
 ------------------------------------------------------------------
 
-We have added German localizations based on ArcgDB (thanks to them
+We have added German localizations based on LoE (thanks to them
 for their work) but with important updates. 
 If you don't need localizations you don't need to download.
 
