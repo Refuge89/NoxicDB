@@ -25,8 +25,8 @@ world_db="arc_world"
 #
 ############################################################################
 
-sqlpath="arcemu_world"
-loc_deDE="localizations/deDE"
+sqlpath="/../../other/arcemu_world"
+loc_deDE="/../../other/localizations/deDE"
 
 
 ############################################################################

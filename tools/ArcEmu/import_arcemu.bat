@@ -3,11 +3,11 @@ TITLE LoE's Installation Tool
 COLOR 0E
 
 
-SET dumppath=.\dump\
-SET bin=.\bin\
-SET sql=.\arcemu_world
-SET changsql=.\changesets
-SET loc_deDE=.\localizations\deDE
+SET dumppath=.\.\dump\
+SET bin=.\.\other\bin\
+SET sql=.\.\other\arcemu_world
+SET changsql=.\.\changesets
+SET loc_deDE=.\.\other\localizations\deDE
 
 :TOP
 CLS
