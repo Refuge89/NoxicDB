@@ -51,6 +51,7 @@ UPDATE `gameobject_names` SET `sound1`=16548 WHERE  `entry`=179544;
 
 /* Fixed misc. creatures */
 UPDATE `creature_spawns` SET `position_x`=3156.09, `position_y`=532.65, `orientation`=6.20465 WHERE  `id`=142594;
+DELETE FROM `ai_agents` WHERE `entry` IN (10811);
 INSERT INTO `ai_agents` (`entry`, `type`, `chance`, `spell`, `spelltype`, `targettype_overwrite`, `cooldown_overwrite`) VALUES 
 (10811, 4, 30, 17293, 3, 1, 0),
 (10811, 4, 50, 17366, 8, 3, 0),
@@ -60,11 +61,13 @@ UPDATE `creature_spawns` SET `faction` = 7 WHERE `entry` = 620;
 
 /* Fixed Melris Malagan and Justine Demalier spawn */
 DELETE FROM `itemnames` WHERE `entry` IN (12480,12481);
+DELETE FROM `creature_spawns` WHERE `id` IN (58973,58974);
 INSERT INTO `creature_spawns` VALUES
 (58973, 12480, 0, -8823.78, 630.43, 94.10, 4.03, 0, 5567, 1078, 0, 16777472, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 21573, 21572, 0, 0, 1),
 (58974, 12481, 0, -8824.79, 631.93, 94.33, 3.82, 0, 5446, 1078, 0, 16843008, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 21553, 0, 0, 0, 1);
 
 /* Fixed Reginald Windsor waypoints */
+DELETE FROM `creature_waypoints` WHERE `spawnid` IN (58983);
 INSERT INTO `creature_waypoints` VALUES 
 ('58983','1','-8491.88','396.733','108.386','0','0','0','0','0','0','0','0'),
 ('58983','2','-8547.91','465.789','104.555','0','0','0','0','0','0','0','0'),
@@ -99,17 +102,18 @@ INSERT INTO `creature_waypoints` VALUES
 ('58983','31','-8491.88','396.733','108.386','0','0','0','0','0','0','0','0');
 
 /* Fixed Alison Devay, Devin Fardale and Arcanist Paharin */
-DELETE FROM `creature_proto` VALUES `entry` IN (34997,34998,35598);
+DELETE FROM `creature_proto` WHERE `entry` IN (34997,34998,35598);
 INSERT INTO `creature_proto` VALUES 
 (34997, 81, 81, 1802, 651650, 651650, 4081, 1, 1048577, 2000, 0, 557, 741, 0, 0, 0, 0, 600000, 9929, 0, 0, 0, 0, 0, 0, 1.65, 0.3366, '', 0, 0, 0, 2.5, 8, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 (34998, 81, 81, 1802, 651650, 651650, 4081, 1, 1048577, 2000, 0, 557, 741, 0, 0, 0, 0, 600000, 9929, 0, 0, 0, 0, 0, 0, 1.65, 0.2288, '', 0, 0, 0, 2.5, 8, 14, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0),
 (35598, 80, 80, 2027, 504000, 504000, 440700, 1, 1048577, 2000, 0, 422, 574, 0, 0, 0, 0, 600000, 7784, 0, 0, 0, 0, 0, 0, 1.65, 0.4213, '', 0, 0, 0, 2.5, 8, 14, 0, 12544, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0);
+DELETE FROM `creature_spawns` WHERE `entry` IN (34997,34998);
 INSERT INTO `creature_spawns` (`id`, `entry`, `map`, `position_x`, `position_y`, `position_z`, `orientation`, `displayid`, `faction`, `bytes2`, `slot1item`) VALUES 
 (199693, 34998, 0, -8391.84, 291.742, 120.886, 3.88649, 29515, 1802, 4097, 43014),
 (199694, 34997, 0, -8384.45, 282.34, 120.886, 3.9289, 29514, 1802, 4097, 21555);
 
 /* Spawned Frostmourne & Altar */
-DELETE FROM `gameobject_spawns` VALUES `Entry` IN (202302,202236);
+DELETE FROM `gameobject_spawns` WHERE `Entry` IN (202302,202236);
 INSERT INTO `gameobject_spawns` (`id`, `Entry`, `map`, `position_x`, `position_y`, `position_z`, `Facing`, `orientation3`, `orientation4`, `State`, `Scale`) VALUES 
 (5008538, 202302, 668, 5309.5, 2006.5, 711.422, 3.90052, 0.928864, -0.370422, 1, 1),
 (5008539, 202236, 668, 5309.49, 2006.49, 709.34, 3.92292, 0.924656, 0.380804, 1, 1);
