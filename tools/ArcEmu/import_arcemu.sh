@@ -25,8 +25,8 @@ world_db="arc_world"
 #
 ############################################################################
 
-sqlpath="/../../other/arcemu_world"
-loc_deDE="/../../other/localizations/deDE"
+sqlpath="../../other/arcemu_world"
+loc_deDE="../../other/localizations/deDE"
 
 
 ############################################################################
@@ -66,14 +66,6 @@ until [ "${option}" = "x" ]; do
 	read -p " Enter option: " option
 	if [ "${option}" = "i" ]; then
 
-		# Clean database
-		echo "DROP DATABASE IF EXISTS ${world_db};" > ${sqlpath}/databaseclean.sql
-		echo "CREATE DATABASE IF NOT EXISTS ${world_db};" >> ${sqlpath}/databaseclean.sql
-		mysql --host ${server} --user=${user} --port=${port} --password=${pass} < ${sqlpath}/databaseclean.sql
-		rm ${sqlpath}/databaseclean.sql
-		echo
-		echo
-		echo " Database ${world_db} successfully created !"
 		
 		max=`ls -1 "${sqlpath}"/*.sql | wc -l`
 		i=0
