@@ -3,7 +3,7 @@
  14. July, 2014
 **********************************************/
 
-/* Adds 32 missing itemnames */
+/* Adds 33 missing itemnames */
 INSERT INTO `itemnames` (`entry`, `name`, `slotid`) VALUES
 (6833, 'White Tuxedo Shirt', 4),
 (6835, 'Black Tuxedo Pants', 7),
