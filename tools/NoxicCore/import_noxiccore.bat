@@ -1,7 +1,6 @@
 @ECHO OFF
-TITLE LoE's Installation Tool
+TITLE NoxicCore's Installation Tool
 COLOR 0E
-
 
 SET dumppath=..\..\dump
 SET bin=..\..\other\bin
@@ -14,11 +13,11 @@ CLS
 ECHO.
 ECHO          ษออออออออออออออออออออออออออออออออออออออป
 ECHO          บ                                      บ
-ECHO          บ         LoE Installation Tool        บ
+ECHO          บ      NoxicCore Installation Tool     บ
+ECHO          บ        Credits: Land of Elves        บ
 ECHO          บ                                      บ
 ECHO          บ  More information:                   บ
-ECHO          บ  Dev-Website: dev.landofelves.net    บ
-ECHO          บ  Dev-Forum:   forum.LandOfElves.net  บ
+ECHO          บ    Dev-Website: crimoxic.pcriot.com  บ
 ECHO          บ                                      บ
 ECHO          ศออออออออออออออออออออออออออออออออออออออผ
 ECHO.
@@ -37,18 +36,17 @@ SET /p world_db= Name of World Database:
 CLS
 SET v=""
 ECHO.
-ECHO  dP                  88888888b    dP   dP   dP                   dP       dP 
-ECHO  88                  88           88   88   88                   88       88 
-ECHO  88        .d8888b. a88aaaa       88  .8P  .8P .d8888b. 88d888b. 88 .d888b88 
-ECHO  88        88'  `88  88           88  d8'  d8' 88'  `88 88'  `88 88 88'  `88 
-ECHO  88        88.  .88  88           88.d8P8.d8P  88.  .88 88       88 88.  .88 
-ECHO  88888888P `88888P'  88888888P    8888' Y88'   `88888P' dP       dP `88888P8 
+ECHO  dP   dP   dP                   dP       dP 
+ECHO  88   88   88                   88       88 
+ECHO  88  .8P  .8P .d8888b. 88d888b. 88 .d888b88 
+ECHO  88  d8'  d8' 88'  `88 88'  `88 88 88'  `88 
+ECHO  88.d8P8.d8P  88.  .88 88       88 88.  .88 
+ECHO  8888' Y88'   `88888P' dP       dP `88888P8 
 ECHO.
-ECHO    Developer Website http://dev.LandOfElves.net  
-ECHO    Developer Forum   http://forum.LandOfElves.net  
+ECHO    Developer Website http://crimoxic.pcriot.com/ 
 ECHO.
 ECHO.
-ECHO    i  - Import LoE World Database
+ECHO    i  - Import World Database
 ECHO         (Warning! The whole world db will be overwritten!)
 ECHO    de - Import German Localization
 ECHO         (Warning! All German localization will be overwritten!)

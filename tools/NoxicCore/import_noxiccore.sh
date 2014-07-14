@@ -2,7 +2,8 @@
 # LoE DB Linux Tool
 #
 # Linux Tool v2.0 by Latheesan
-# Modified by LoE 2012-2013 
+# Modified by LoE 2012-2013
+# Modified by Crimoxic 2014
 ############################################################################
 #
 #  Tool Configuration
@@ -37,15 +38,14 @@ loc_deDE="localizations/deDE"
 logo() {
 	clear
 	echo
-	echo " dP                  88888888b    dP   dP   dP                   dP       dP "
-	echo " 88                  88           88   88   88                   88       88 "
-	echo " 88        .d8888b. a88aaaa       88  .8P  .8P .d8888b. 88d888b. 88 .d888b88 "
-	echo " 88        88'  '88  88           88  d8'  d8' 88'  '88 88'  '88 88 88'  '88 "
-	echo " 88        88.  .88  88           88.d8P8.d8P  88.  .88 88       88 88.  .88 "
-	echo " 88888888P '88888P'  88888888P    8888' Y88'   '88888P' dP       dP '88888P8 "
+	echo " dP   dP   dP                   dP       dP "
+	echo " 88   88   88                   88       88 "
+	echo " 88  .8P  .8P .d8888b. 88d888b. 88 .d888b88 "
+	echo " 88  d8'  d8' 88'  '88 88'  '88 88 88'  '88 "
+	echo " 88.d8P8.d8P  88.  .88 88       88 88.  .88 "
+	echo " 8888' Y88'   '88888P' dP       dP '88888P8 "
 	echo
-	echo " Developer website: dev.LandOfElves.net"
-	echo " Developer forum:   forum.LandOfElves.net"
+	echo " Developer website: http://crimoxic.pcriot.com/"
 	echo 
 }
 

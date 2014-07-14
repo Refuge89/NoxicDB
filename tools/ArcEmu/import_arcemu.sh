@@ -2,7 +2,8 @@
 # LoE DB Linux Tool
 #
 # Linux Tool v2.0 by Latheesan
-# Modified by LoE 2012-2013 
+# Modified by LoE 2012-2013
+# Modified by Crimoxic 2014
 ############################################################################
 #
 #  Tool Configuration
