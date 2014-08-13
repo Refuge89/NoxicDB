@@ -1,2 +1,5 @@
 /.reference
 /auto_update_*
+*.sln
+*.cpp
+*.h

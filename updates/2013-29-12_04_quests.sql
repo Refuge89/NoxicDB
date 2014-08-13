@@ -1,1 +1,0 @@
-UPDATE `quests` SET `PrevQuestId`=783 WHERE  `entry`=7;
