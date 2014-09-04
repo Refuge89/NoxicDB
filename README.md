@@ -20,7 +20,7 @@ Before you can install LoE DB you will need a running MySQL server.
 Make a backup of your database !
 
 
-### Localizations==
+### Localizations
 
 We have added German localizations based on LoE (thanks to them
 for their work) but with important updates. 
