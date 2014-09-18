@@ -32,7 +32,7 @@ UPDATE `loot_creatures` SET `normal10percentchance`=14, `normal25percentchance`=
 /* Fixed Barnes NPC Flag */
 UPDATE `creature_proto` SET `npcflags`=1 WHERE  `entry`=16812;
 
-/* Added 1 missing Itemnames */
+/* Added 7 missing Itemnames */
 DELETE FROM `itemnames` WHERE `entry` IN (28189,16466,16465,16468,16806,16804,16805);
 INSERT INTO `itemnames` (`entry`, `name`, `slotid`) VALUES
 (28189, 'Latro\'s Shifting Sword', 13),
