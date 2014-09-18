@@ -14,10 +14,20 @@ gameobjects, items, spells, quests and much more.
 Visit the [website](http://dev.landofelves.net) for more information.
 
 ### Branch definitions
-The master branch is for client patch: 3.3.5a.
+The 1.12.1 branch is for client patch: 1.12.1 - Not started
+
+The 2.4.3 branch is for client patch: 2.4.3 - Not started
+
+The master branch is for client patch: 3.3.5a
+
+The 4.3.4 branch is for client patch: 4.3.4 - Not started
+
+The 5.4.8 branch is for client patch: 5.4.8 - Not started
+
+The 6.0.2 branch is for client patch: 6.0.2 - Not started
+
 
 All the other client patch databases are currently closed source but once available, they'll be available at their name.
-
 
 ### Preparation
 
