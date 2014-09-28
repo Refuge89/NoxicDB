@@ -133,4 +133,4 @@ INSERT INTO `vehicle_accessories` (`creature_entry`, `accessory_entry`, `seat`, 
 (33113, 33114, 2, 'Flame Leviathan');
 
 /* Update the database version to latest version */
-UPDATE db_version SET revision=18 WHERE db_name='NoxicDB';
+UPDATE `db_version` SET `revision`=18, `changeset`=18 WHERE  `db_name`='NoxicDB';

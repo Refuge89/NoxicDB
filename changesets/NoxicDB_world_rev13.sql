@@ -56,5 +56,4 @@ INSERT INTO `areatriggers` (`entry`, `type`, `map`, `screen`, `name`, `position_
 (224, 0, 0, 0, 'Darkshore - Master Glaive', 0, 0, 0, 0);
 
 /* Update the database version to latest version */
-UPDATE db_version SET revision=11 WHERE db_name='LoE World' OR db_name='LoE Sunrise World';
-INSERT INTO `db_version` (`db_name`, `revision`, `changeset`, `game_version`, `last_tested_arcemu_revision`, `last_included_arcemu_update`, `last_db_update_by`) VALUES ('NoxicDB', 13, 1, '3.3.5a', '9d5734beb658bc83d93c5af45d710754a7e4fefd', '2013-12-01_01_loot_gameobject.sql', 'Noxicfuse');
+UPDATE `db_version` SET `revision`=13, `changeset`=13 WHERE  `db_name`='NoxicDB';

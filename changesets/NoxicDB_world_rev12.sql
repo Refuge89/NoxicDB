@@ -536,4 +536,4 @@ DELETE FROM `gameobject_spawns` WHERE `Entry`= 161460;
 INSERT INTO `gameobject_spawns` VALUES (23918, 161460, 230, 615.61, -49.78, -60.06, 2.08, 0.00, 0.00, 0.86, 0.51, 1, 0, 0, 1, 0, 1, 0);
 
 /* Update the database version to latest version */
-UPDATE db_version SET revision=12 WHERE db_name='LoE World' OR db_name='LoE Sunrise World';
+UPDATE `db_version` SET `revision`=12, `changeset`=12 WHERE  `db_name`='NoxicDB';

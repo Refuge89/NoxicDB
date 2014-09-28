@@ -69,4 +69,4 @@ UPDATE `playercreateinfo` SET `positionX`=2355.84, `positionY`=-5664.77/*, `orie
 UPDATE `playercreateinfo` SET `positionX`=2355.84, `positionY`=-5664.77/*, `orientation`=3.65997*/ WHERE  `Index`=64;
 
 /* Update the database version to latest version */
-UPDATE db_version SET revision=19 WHERE db_name='NoxicDB';
+UPDATE `db_version` SET `revision`=19, `changeset`=19 WHERE  `db_name`='NoxicDB';

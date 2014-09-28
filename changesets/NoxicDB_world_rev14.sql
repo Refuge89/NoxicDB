@@ -73,4 +73,4 @@ INSERT INTO `totemspells` (`spell`, `castspell1`) VALUES
 (65995, 65993);
 
 /* Update the database version to latest version */
-UPDATE db_version SET revision=14 WHERE db_name='NoxicDB';
+UPDATE `db_version` SET `revision`=14, `changeset`=14 WHERE  `db_name`='NoxicDB';

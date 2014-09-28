@@ -44,4 +44,4 @@ INSERT INTO `npc_text` (`entry`, `prob0`, `text0_0`, `text0_1`) VALUES
 (3544, 1, 'Hey there, $N. How can I help you?', 'Hey there, $N. How can I help you?');
 
 /* Update the database version to latest version */
-UPDATE db_version SET revision=16 WHERE db_name='NoxicDB';
+UPDATE `db_version` SET `revision`=16, `changeset`=16 WHERE  `db_name`='NoxicDB';

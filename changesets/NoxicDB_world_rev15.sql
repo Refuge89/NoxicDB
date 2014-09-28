@@ -1496,4 +1496,4 @@ DELETE FROM `creature_waypoints` WHERE  `spawnid`=64096;
 DELETE FROM `creature_waypoints` WHERE  `spawnid`=62897;
 
 /* Update the database version to latest version */
-UPDATE db_version SET revision=15 WHERE db_name='NoxicDB';
+UPDATE `db_version` SET `revision`=15, `changeset`=15 WHERE  `db_name`='NoxicDB';

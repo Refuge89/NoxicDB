@@ -300,4 +300,4 @@ ALTER TABLE `zoneguards` ORDER BY `zone`;
 OPTIMIZE TABLE `zoneguards`;
 
 /* Update the database version to latest version */
-UPDATE db_version SET revision=17 WHERE db_name='NoxicDB';
+UPDATE `db_version` SET `revision`=17, `changeset`=17 WHERE  `db_name`='NoxicDB';

@@ -121,4 +121,4 @@ UPDATE `playercreateinfo` SET `orientation`=3.65997 WHERE  `Index`=63;
 UPDATE `playercreateinfo` SET `orientation`=3.65997 WHERE  `Index`=64;
 
 /* Update the database version to latest version */
-UPDATE db_version SET revision=20 WHERE db_name='NoxicDB';
+UPDATE `db_version` SET `revision`=20, `changeset`=20 WHERE  `db_name`='NoxicDB';
